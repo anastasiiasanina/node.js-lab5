@@ -1,5 +1,4 @@
 const { error } = require('console');
-const fs = require('fs');
 const Author = require('./models/authorModel');
 const BookName = require('./models/bookNameModel');
 const Keyword = require('./models/keywordModel');

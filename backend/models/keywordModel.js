@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
 
 const keywordSchema = mongoose.Schema({
-  value: String
+  value: { type: String, required: true },
+  books: Array
 });
 
 const Keyword = mongoose.model('Keyword', keywordSchema);
